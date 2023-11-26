@@ -1,0 +1,38 @@
+.Related_products{
+    display: flex;
+    flex-direction: column;
+  text-align: left;
+   margin-top: 15rem;
+    
+    
+}
+.cardss{
+    /* width: 100%; */
+    display: flex;
+}
+.demo{
+    justify-content: space-between;
+}
+@media(max-width: 768px) {
+    
+    .Related_products{
+       margin-top: 35rem;
+       width: 100%;
+        
+        
+    }  
+    .cardss{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+}
+
+@media(max-width: 576px) {
+    .Related_products{
+        margin-top: 65rem;
+        width: 100%;
+         
+         
+     }
+}

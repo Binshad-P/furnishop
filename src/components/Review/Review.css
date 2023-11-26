@@ -1,0 +1,130 @@
+.Review{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0;
+   
+   
+}
+.Review .right{
+    width: 50%;
+   padding-left: 60px;
+    
+
+}
+.Review .left{
+    text-align: left;
+    width: 50%;
+}
+.Review .right img{
+    height: 340px;
+    width: 600px;
+   
+}
+.profile{
+    display: flex;
+    margin: 35px 0;
+    align-items: left;
+    gap: 20px;
+}
+.profile .user img{
+    width: 65px;
+    height: 65px;
+}
+.user{
+    
+    display: flex;
+    gap: 25px;
+    line-height: 15px;
+    margin-top: 10px;
+    
+   
+}
+.Review .profile1{
+    margin-top: 15px;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.button{
+    background-color: rgb(213, 208, 202);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none
+}
+.button1{
+    background-color: #286F6C;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none
+}
+.contents h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.u-name{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.u-job{
+    font-family: 'Saira', sans-serif;
+    font-size: 16px; 
+    font-weight: 200;
+}
+.para{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px; 
+}
+@media(max-width: 768px) {
+    .Review{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Review br{
+        display: none;
+    }
+    .Review .right{
+        width: 95%;
+        padding-left: 25px;
+        
+    }
+    .Review .right img{
+        width: 100%;
+    }
+    .Review .left{
+        width: auto;
+        margin-left: 25px;
+    }
+    .contents h1 {
+        font-size: 30px;
+        
+    }
+    .buttons{ 
+       margin-bottom: 20px;
+
+    }
+    .para{
+        margin-top: 0; 
+    }
+
+}
+@media(max-width: 576px) {
+    .contents h1 {
+        font-size: 24px;
+        
+    }
+    .para{
+        font-size: 16px;
+    }
+    .u-job{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,209 @@
+.Rating_review {
+    text-align: left;
+    margin-top:5rem;
+}
+.Rating_review .above-section{
+    gap: 100px;
+    display: flex;
+}
+.Rating_review .above-section .left{
+    width: 40%;
+}
+.Rating_review .above-section .left .rating{
+display: flex;
+gap: 20px;
+align-items: baseline;
+}
+.Rating_review .above-section .left .bars{
+    text-align: left;
+width: 100%;
+}
+.Rating_review .above-section .left .bar1{
+    display: flex;
+    align-items: center;
+}
+.Rating_review .above-section .left .bar1 p{
+    width: 100px;
+    margin: 0;
+
+}
+.all-line{
+    margin-left: 20px;
+    width: 100%;
+}
+.Rating_review .above-section .left .bar1 .all-line .lines{
+    width: 100%;
+    height: 5px;
+    background-color:#d5cdcd;
+}
+.Rating_review .above-section .left .bar1 .all-line .lines .line1{
+    width: 75%;
+    height: 5px;
+    background-color: black;
+}
+.Rating_review .above-section .right{
+    margin-top: -30px;
+    width: 60%;
+   
+}
+.Rating_review .above-section .right .images{
+    /* gap: 15px; */
+    display: flex;
+}
+.Rating_review .above-section .right .images img{
+    width: 200px;
+    height: 200px;
+}
+.Rating_review .center .center_line {
+    width: 100%;
+    height: 2px ;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(168, 168, 168));
+    
+}
+.Rating_review .below-section{
+    margin-top: 5rem;
+    display: flex;
+}
+.below-section .left{
+    width: 30%;
+}
+.below-section .right{
+    width: 70%;
+} 
+
+.below-section .right .review1{
+    display: flex;
+    margin: 55px 0;
+}
+.below-section .right .profile1 {
+display: flex;
+width: 100%;
+}
+.below-section .right img {
+height: 100px;
+width: 100px;
+}
+.below-section .right  .likes{
+    display: flex;
+}
+.below-section .right  .likes .like{
+    display: flex;
+    align-items: baseline;
+    margin-right: 10px;
+   
+}
+.below-section .right  .likes .dislike{
+    align-items: baseline;
+    display: flex;
+   
+   
+}
+.below-section .left input{
+    border-radius: 12px;
+    width: 300px;
+    height: 50px;
+    /* border: none; */
+}
+.Total-review{
+    display: flex;
+    gap: 205px;
+    margin-bottom: 70px;
+}
+.below-section .right .user {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 5px;
+    margin-top: 20px;
+}
+@media(max-width: 768px) {
+    .Rating_review {
+        display: flex;
+        flex-direction: column;
+    }
+    .Rating_review .above-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .Rating_review .above-section .left {
+        width: 100%;
+    }
+    .Rating_review .above-section .right .images img {
+        width: 180px;
+        height: 200px;
+    }
+    .Rating_review .below-section{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .below-section .right{
+        width: 100%;
+    }
+    .below-section .right .user {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        gap: 5px;
+    }
+    .Total-review{
+        gap: 95px;
+        margin-bottom: 50px;
+       margin-top: 25px;
+    }
+    .below-section .right .profile1 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+@media(max-width: 576px) {
+    .Rating_review .above-section .right .images {
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .Rating_review .above-section .right .images img {
+        width: 90px;
+        height: 200px;
+    }
+    .table1 {
+        width: 100%;
+    }
+    .below-section .right .profile1 {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .u-name {
+        font-size: 13px;
+    }
+    .below-section .right .profile1 img{
+        width: 60px;
+        height: 60px;
+    }
+    /* .below-section .right .review1 {
+        gap: 40px;
+    } */
+    .below-section .right .review1 .user p{
+        font-size: 13px;
+        margin-bottom: 0;
+
+    }
+    .user-review{
+        width: 70%;
+
+    }
+    .below-section .right .user {
+        margin-left: 0px;
+    }
+    .Total-review{
+        gap: 17px;
+    }
+    .Total-review h4{
+        font-size: 16px;
+
+    }
+    .Total-review h5{
+        font-size: 14px;
+    }
+}

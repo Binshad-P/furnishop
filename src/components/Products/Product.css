@@ -1,0 +1,32 @@
+.productss button{
+    background-color: gray;
+    margin-left: 200px;
+    
+}
+.Products{
+    margin-top: 100px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.headings p{
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+} 
+@media(max-width: 576px) {
+    .Products br{
+        display: none;
+    }
+    .headings{
+        margin-left: 20px;
+    }
+    .headings h1{
+      
+        font-size: 24px;
+    }
+}

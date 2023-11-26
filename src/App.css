@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;700;800;900&display=swap');
 .App {
   text-align: center;
 }
@@ -27,6 +28,14 @@
 .App-link {
   color: #61dafb;
 }
+.Hero-section{
+  height: 110vh;
+  width:100%;
+
+  background-image: url('../src/assets/HOMEIMG2.png');
+  background-size:cover;
+  background-position: bottom right;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+

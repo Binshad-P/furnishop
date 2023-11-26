@@ -1,0 +1,26 @@
+.Product_details {
+   height: 60vh;
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+
+.Product_details .left {
+    width: 40%;
+}
+
+.Product_details .right {
+    width: 60%;
+}
+@media(max-width: 768px) {
+    .Product_details {
+        display: flex;
+        flex-direction: column;
+    }
+    .Product_details .left {
+        width: 100%;
+    }
+    .Product_details .right {
+        width: 100%;
+    }
+}

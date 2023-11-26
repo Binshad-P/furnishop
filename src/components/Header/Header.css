@@ -1,0 +1,26 @@
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+.navbar11{
+    font-family: 'Saira', sans-serif;
+    width: 100%;
+    
+}
+.title1{
+    font-family: 'Saira', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.title2{
+    text-decoration: none;
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-toggler {
+    background-color: white;
+}

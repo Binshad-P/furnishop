@@ -1,0 +1,78 @@
+.Branding{
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.Branding .left{
+    text-align: left;
+    margin-top: 55px;
+    width: 50%;
+}
+.Branding .left h1{
+    font-family: 'Saira', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Branding .left p{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    margin-top: 65px;
+}
+.Branding .right{
+    width: 50% ;
+}
+@media(max-width: 768px) {
+    .Branding{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+      
+        
+    }
+    .Branding br{
+        display: none;
+    }
+    .Branding .right{
+        width: 100%;
+    }
+    .Branding .right img{
+        width: 93%;
+    }
+    .Branding .left{
+        margin-left: 25px;
+        width: 100%;
+       margin-bottom: 25px;
+    }
+    .Branding .left p {
+        margin-top: 0;
+    }
+}
+@media(max-width: 576px) {
+    .Branding .right img{
+        width: 300px;
+    }
+    .Branding .left {
+        width: 80%;
+        /* padding: 0 0 50px 30px; */
+    }
+    .Branding {
+
+
+    }
+    .Branding br{
+        display: none;
+    }
+    .Branding .left h1{
+        width: 100%;
+        font-size: 22px;
+    }
+    .Branding .left p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .Branding .right {
+        width: 93%;
+    }
+}
