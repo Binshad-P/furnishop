@@ -19,9 +19,15 @@ gap: 40px;
     text-align: left;
     width:30%
 }
+.OverView .starzz{
+    width: 80px;
+}
 .OverView .rating{
     display: flex;
     gap: 10px;
+}
+.OverView .rating p{
+    font-size: 15px;
 }
 .OverView .descps{
     display: flex;
