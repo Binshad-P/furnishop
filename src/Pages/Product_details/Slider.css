@@ -38,7 +38,7 @@
   }
   
   .slider .mySwiper {
-    height: 0%;
+    height: 100vh;
     box-sizing: border-box;
     padding: 10px 0;
   }
@@ -83,9 +83,21 @@
     margin-top: 10px;
     width: 70%;
   }
+  @media(max-width: 768px) {
+    .slider .mySwiper {
+      height: 31vh;
+      box-sizing: border-box;
+      padding: 10px 0;
+    }
+  }
   @media(max-width: 576px) {
     .slider{
       margin-top: 1rem;
   
+    }
+    .slider .mySwiper {
+      height: 34vh;
+      box-sizing: border-box;
+      padding: 10px 0;
     }
   }
