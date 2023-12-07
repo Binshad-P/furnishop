@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
         </div>
        <div>    
-   < p className='py-5'>© NameBrand 2022 - All Rights Reserved</p>
+   < p className='py-5'>© NameBrand 2023 - All Rights Reserved</p>
    </div>
 
     </Container>
