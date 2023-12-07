@@ -127,4 +127,11 @@
     .u-job{
         font-size: 12px;
     }
+    .Review .left{
+        margin-left: 0px;
+    }
+    .Review .right{
+        width: 100%;
+        padding-left: 0px;
+    }
 }

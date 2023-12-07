@@ -53,6 +53,7 @@
 }
 @media(max-width: 576px) {
 .store .left{
+   margin-left: 15px;
  gap: 0;
    
 }
@@ -70,6 +71,7 @@
 }
 .store .right{
    width: 100%;
+   margin-left: 0px;
 }
 
 }

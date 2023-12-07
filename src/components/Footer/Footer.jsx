@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='Footer'>
         <Container>
         <div className='main-section'>
-            <h1>TipTop</h1>
+            {/* <h1>TipTop</h1> */}
             <div className='icons'>
                 <button type='submit'><AiOutlineInstagram color='white' size={25}/></button>
                 <button type='submit'><AiFillFacebook color='white' size={25}/></button>
