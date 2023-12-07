@@ -54,7 +54,8 @@
         width: 300px;
     }
     .Branding .left {
-        width: 80%;
+        width: 100%;
+        margin-left: 0;
         /* padding: 0 0 50px 30px; */
     }
     .Branding {

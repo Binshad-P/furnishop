@@ -30,9 +30,13 @@
 
 @media(max-width: 576px) {
     .Related_products{
-        margin-top: 65rem;
+        margin-top: 55rem;
         width: 100%;
          
          
+     }
+     .cardss{
+        display: flex;
+        justify-content: center;
      }
 }

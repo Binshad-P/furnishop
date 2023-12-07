@@ -35,7 +35,7 @@
   @media(max-width: 768px) {
     .grid-container {
         margin: 25px;
-        margin-top: 300px;
+        margin-top: 234px;
         display: grid;
         grid-template-columns: auto auto  ;
         grid-gap: 10px;
@@ -45,5 +45,13 @@
       }
       .grid-container > div:nth-child(2){
         border-right: 0px solid black;
+      }
+      @media (max-width:576px) {
+        
+        .grid-container {
+          margin-top:270px;
+          
+        }
+        
       }
   }

@@ -8,8 +8,8 @@ const OverView = () => {
     <div className='OverView'>
         <div className='section-left'>
             <div className='Title'>
-            <h3>Versace Eros</h3>
-            <h3>Eau De ToIlette Spray For Men 100ml</h3>
+            <h3>Twin Cot with 2 Mattresses for Twins, Solid Wood, White, 120 x 120 cm</h3>
+            {/* <h3>Eau De ToIlette Spray For Men 100ml</h3> */}
             </div>
             <div className='rating'>
             <div className='starzz'>
@@ -28,33 +28,30 @@ const OverView = () => {
              
                 <table className='table1'>
                     <tr>
-                        <td>Brand</td>
-                        <td>Brand</td>
-                    </tr>
-                    <tr>
-                        <td>Ideal For</td>
-                        <td>Men</td>
-                    </tr>
-                    <tr>
-                        <td>Quantity</td>
-                        <td>100 ml</td>
-                    </tr>
-                    <tr>
-                        <td>Country of Origin</td>
-                        <td>India</td>
-                    </tr>
-                    <tr>
-                        <td>Sales Package</td>
-                        <td>Whisky Smoke Perfume</td>
+                        <td>Color</td>
+                        <td>Wood color</td>
                     </tr>
                     <tr>
                         <td>Brand</td>
-                        <td>Brand</td>
+                        <td>Micoland</td>
                     </tr>
+                    <tr>
+                        <td>Material</td>
+                        <td>Pine Wood</td>
+                    </tr>
+                    <tr>
+                        <td>Furniture Finish</td>
+                        <td>pine</td>
+                    </tr>
+                    <tr>
+                        <td>style</td>
+                        <td>Modern</td>
+                    </tr>
+                   
                    
                 </table>
                 <h6>About this item</h6>
-                <p>packing for this product way from that shown in the about.</p>
+                <p className='about-item-description'>The Bubema Nils baby bed is a must-have in any child's room. Thanks to the processed solid wood, the bed is very stable and will accompany your child through the first years.</p>
             </div>
         </div>
         <div className='section-right'>
@@ -63,10 +60,7 @@ const OverView = () => {
             <h3>$38.98</h3>
             
            <table className='table2'>
-            <tr>
-                <td>100ml</td>
-                <td><IoIosArrowDown/></td>
-            </tr>
+          
             <tr>
                 <td>Delivery</td>
                 <td><IoIosArrowDown/></td>

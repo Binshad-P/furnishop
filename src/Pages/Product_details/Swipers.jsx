@@ -2,9 +2,9 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import img1 from '../../assets/img16.png'
-import img2 from '../../assets/img10.png'
-import img3 from '../../assets/img11.png'
-import img4 from '../../assets/img12.png'
+import img2 from '../../assets/img2.jpg'
+import img3 from '../../assets/img3.jpg'
+import img4 from '../../assets/img4.jpg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -35,20 +35,20 @@ export default function Swipers() {
             direction={"vertical"}
             height={320}
           >
-           
-              <SwiperSlide>
-                <img src={img1}/>
+           <div >
+              <SwiperSlide >
+                <img className="left-side-img" src={img1}/>
               </SwiperSlide>
               <SwiperSlide>
-              <img src={img2}/>
+              <img className="left-side-img"src={img2}/>
               </SwiperSlide>
               <SwiperSlide>
-              <img src={img3}/>
+              <img className="left-side-img" src={img3}/>
               </SwiperSlide>
               <SwiperSlide>
-              <img src={img4}/>
+              <img className="left-side-img"src={img4}/>
               </SwiperSlide>
-           
+              </div>
           </Swiper>
           </div>
           <div className="right-slider">

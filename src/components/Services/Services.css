@@ -70,6 +70,7 @@
 @media(max-width: 576px) {
     .Services{
         margin-top: 310px; 
+        padding: 25px 0;
     }
     
     .Services .right {
@@ -86,7 +87,8 @@
         width: 300px;
     }
     .Services .left{
-        margin-left: 10px;
+        display: flex;
+        justify-content: center;
         width: 100%;
     }
         

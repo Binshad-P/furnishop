@@ -74,5 +74,13 @@ font-size: 16px;
         align-items: center;
         justify-content: flex-start;
      }
+     .icons{
+        display: flex;
+        justify-content: center;
+     }
+     .py-5{
+        display: flex;
+        justify-content: center;
+     }
 
 }
