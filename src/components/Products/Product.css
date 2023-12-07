@@ -15,6 +15,9 @@
     font-weight: 700;
 }
 .headings p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: 'Saira', sans-serif;
     font-size: 16px;
 } 
